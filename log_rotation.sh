@@ -1,10 +1,11 @@
 #!/bin/bash
 
 ###################################
-#This script used for:
-#1. Check the desired log path exists or not.
-#2. If exists, compress the log files older than 7 days 
-#3. and deletes the zipped log files older than 30 days
+# This script used for:
+# 1. Check the desired log path exists or not.
+# 2. If exists, compress the log files older than 7 days 
+# 3. and deletes the zipped log files older than 30 days
+# 4. You can schedule a cronjob of this script to run daily
 ###################################
 
 #Variables
